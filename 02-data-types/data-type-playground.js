@@ -59,7 +59,7 @@ console.log('x = ', x); // x = 0
 console.log(Math.floor(Math.random()*2 + 1));
 
 // Array constructor with multiple params
-var numbers2 = new Array(1, 2, 3, 4, 5);
+var numbers2 = new Array[1, 2, 3, 4, 5];
 console.log(numbers2);
 
 // Array literals are much cleaner for creating arrays
@@ -94,5 +94,5 @@ console.log('reversed extended family', extendedFamily)
 // We can join elements together using array.join
 var productIds = [12, 34, 56, 7, 8, 99];
 console.log('productsIds, productIds');
-var productIdString = productIds.join();
+var product IdString = productIds.join();
 console.log('productIdString', productIdstring);
