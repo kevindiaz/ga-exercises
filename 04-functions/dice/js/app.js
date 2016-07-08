@@ -34,6 +34,7 @@
  * Resources:
  * 	 - https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclick
  */
+
 var possibleRolls = ['dice-1', 'dice-2', 'dice-3', 'dice-4', 'dice-5', 'dice-6'];
 
 document.getElementById('roll-dice').onclick = function() {
@@ -43,12 +44,12 @@ document.getElementById('roll-dice').onclick = function() {
   document.getElementById('second-die').className = 'dice ' + possibleRolls[getRandomNumber()];
   console.log(document.getElementById('second-die').className);
   if (document.getElementById('first-die').className === document.getElementById('second-die').className)
-  console.log('they are the same!'); else {
-    console.log(Not the same!);
+    console.log('They are the same!'); else {
+    console.log('Nice roll!');
   }
 };
 
 function getRandomNumber() {
   var possibleRolls = Math.floor((Math.random() * 5) + 0);
-  return possibleRolls
+  return possibleRolls;
 }
