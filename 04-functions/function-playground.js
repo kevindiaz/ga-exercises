@@ -11,10 +11,10 @@ function speak(words1) {
 }
 
 // Function explression
-var speak = function(words) {}
+var speak = function(words) {
   // words is a parameter
   return words
-
+};
 //
 function greet(greeting)  {
 	return 'hi';
