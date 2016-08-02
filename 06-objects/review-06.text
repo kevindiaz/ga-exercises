@@ -1,0 +1,11 @@
+1. Explain in your own words what an object literal is?
+A list of property names and values.
+
+2. What is the diff between a class and an object?
+
+
+3. How do we write classes in js?
+
+
+4. How do we create objects from classes in js?
+Using the "new" keyword.

@@ -1,0 +1,8 @@
+var student = {
+  name: 'kevin',
+  age: 10,
+  email 'k@gmail.com'
+};
+
+Q: How is HTML related to the DOM.
+A:
